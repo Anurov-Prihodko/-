@@ -1,0 +1,18 @@
+.title-for-two-blocks {
+  @include font(28px, 700);
+  line-height: 1.178;
+  color: $text-head-color;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .title-for-two-blocks {
+    @include font(36px, 700);
+
+    line-height: 1.167;
+    text-align: center;
+    color: $text-head-color;
+    margin-bottom: 50px;
+  }
+}

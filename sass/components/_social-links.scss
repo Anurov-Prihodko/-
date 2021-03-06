@@ -1,0 +1,84 @@
+.social-list {
+  display: flex;
+  justify-content: center;
+
+  .social-list-item:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.social-list-icon {
+  transition: fill $time $function-time;
+
+  .social-list-link:hover &,
+  .social-list-link:focus & {
+    fill: $white-color;
+  }
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  background-color: $white-color;
+  border-radius: 50%;
+  color: $icon-color;
+  fill: currentColor;
+
+  transition: background-color $time $function-time, color $time $function-time,
+    fill $time $function-time;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+
+.social-list-item {
+  width: 44px;
+  height: 44px;
+}
+
+.join-us-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-us-item {
+  width: 44px;
+  height: 44px;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.join-us-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  color: $white-color;
+  fill: currentColor;
+  background-color: $icon-background;
+
+  transition: background-color $time $function-time;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1199px) {
+  .join-us-list {
+    display: flex;
+    justify-content: left;
+  }
+}

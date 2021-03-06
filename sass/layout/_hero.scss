@@ -1,0 +1,110 @@
+.hero-title {
+  @include font($fs: 26px, $fw: 900, $ls: 0.06em);
+
+  line-height: 1.615;
+  text-transform: uppercase;
+  color: $white-color;
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.hero {
+  max-width: 480px;
+  padding: 118px 0;
+  margin: 0 auto;
+  text-align: center;
+  background-color: $background-main;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../img/hero/hero-bcg-tel.jpg");
+
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+@media screen and (min-devise-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/hero/hero-bcg-tel@2x.jpg");
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .hero {
+    max-width: 768px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/hero/hero-bcg-tab.jpg");
+  }
+
+  @media screen and (min-devise-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../img/hero/hero-bcg-tab@2x.jpg");
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    max-width: 768px;
+  }
+
+  .hero-title {
+    padding: 0 186px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .hero {
+    max-width: 1600px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/hero/hero-background.jpg");
+  }
+
+  @media screen and (min-devise-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../img/hero/hero-background@2x.jpg");
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding: 200px 0;
+  }
+
+  .hero-title {
+    padding: 0 266px;
+  }
+
+  .hero-title {
+    @include font($fs: 44px, $fw: 900, $ls: 0.06em);
+
+    line-height: 1.364;
+  }
+}

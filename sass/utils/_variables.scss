@@ -1,0 +1,56 @@
+$text-font: "Roboto", sans-serif;
+$text-main-color: #757575;
+$text-head-color: #212121;
+$accent-color: #2196f3;
+$white-color: #ffffff;
+$black-color: #000000;
+$contacts-color: rgba(255, 255, 255, 0.6);
+$icon-color: #afb1b8;
+$background-main: rgba(47, 48, 58, 0.4);
+$background-footer: #2f303a;
+$background-team: #f5f4fa;
+$icon-background: rgba(255, 255, 255, 0.1);
+$what-we-do-background: rgba(47, 48, 58, 0.8);
+$card-background: rgba(33, 150, 243, 0.9);
+$border-work-examples: #eeeeee;
+$portfolio-border: #ececec;
+$hero-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+$our-team-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+  0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+$work-examples-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+  0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+$time: 250ms;
+$function-time: cubic-bezier(0.4, 0, 0.2, 1);
+$box-shadow-portfolio: 0px 3px 1px rgba(0, 0, 0, 0.1),
+  0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+$border-subscribe-form: 1px solid rgba(255, 255, 255, 0.3);
+$backdrop-bkg-color: rgba(0, 0, 0, 0.2);
+$modal-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+  0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+$border-form: 1px solid rgba(33, 33, 33, 0.2);
+
+// :root {
+//   --text-font: "Roboto", sans-serif;
+//   --text-main-color: #757575;
+//   --text-head-color: #212121;
+//   --accent-color: #2196f3;
+//   --white-color: #ffffff;
+//   --black-color: #000000;
+//   --contacts-color: rgba(255, 255, 255, 0.6);
+//   --icon-color: #afb1b8;
+//   --background-main: rgba(47, 48, 58, 0.4);
+//   --background-footer: #2f303a;
+//   --background-team: #f5f4fa;
+//   --icon-background: rgba(255, 255, 255, 0.1);
+//   --what-we-do-background: rgba(47, 48, 58, 0.8);
+//   --card-background: rgba(33, 150, 243, 0.9);
+//   --border-work-examples: #eeeeee;
+//   --portfolio-border: #ececec;
+//   --hero-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+//   --our-team-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+//     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+//   --work-examples-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+//     0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+//   --time: 250ms;
+//   --function-time: cubic-bezier(0.4, 0, 0.2, 1);
+// }

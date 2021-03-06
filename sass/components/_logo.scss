@@ -1,0 +1,30 @@
+.logo-main {
+  font-family: Raleway;
+  @include font($fs: 24px, $fw: 700);
+
+  line-height: 1.167;
+  color: $black-color;
+}
+
+.logo-portfolio {
+  color: $black-color;
+}
+
+.logo-blue {
+  color: $accent-color;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-main {
+    @include font($fs: 26px, $fw: 700);
+
+    line-height: 1.192;
+    margin-right: 88px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo-main {
+    margin-right: 95px;
+  }
+}

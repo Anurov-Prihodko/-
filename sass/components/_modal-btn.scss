@@ -1,0 +1,25 @@
+.form-btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+.form-btn {
+  @include font(16px, 700, 0.06em);
+
+  font-family: $text-font;
+  line-height: 30px;
+  $bkg-btn-form: #188ce8;
+  color: $white-color;
+  padding: 10px 55px;
+  background-color: $accent-color;
+  box-shadow: $hero-shadow;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+  transition: background-color $time $function-time;
+
+  &:hover,
+  &:focus {
+    background-color: $bkg-btn-form;
+  }
+}

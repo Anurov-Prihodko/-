@@ -1,0 +1,51 @@
+@media screen and (max-width: 1199px) {
+  .what-we-do {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .what-we-do-list {
+    display: flex;
+    position: relative;
+    z-index: -1;
+  }
+
+  .what-we-do-item {
+    position: relative;
+    width: 370px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  .what-we-do {
+    padding-bottom: 95px;
+  }
+
+  .recital-foto {
+    justify-content: center;
+    align-self: center;
+    font-family: $text-font;
+
+    @include font($fw: 700);
+
+    line-height: 1.143;
+    text-transform: uppercase;
+    color: $white-color;
+  }
+
+  .description-what-we-do {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    height: 70px;
+    background-color: $what-we-do-background;
+  }
+}

@@ -1,0 +1,27 @@
+.backdrop-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: $white-color;
+  fill: currentColor;
+
+  &:hover .backdrop-img,
+  &:focus .backdrop-img {
+    fill: $accent-color;
+  }
+}
+
+.backdrop-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: fill $time $function-time;
+  fill: currentColor;
+}
